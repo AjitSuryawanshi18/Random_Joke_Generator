@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random_Joke_Generator</title>
+    <style>
+        *{
+            background-color: aqua;
+        }
+        #joke{
+
+          background-color: white; 
+          font-size: 170%;
+          font-family: cursive;
+          font-weight: bolder;
+          height: 15vh;
+          padding: 8vh 3vw;
+          margin-top: 3%;
+          border: 1vh solid black;
+          border-radius: 1vw;
+        }
+        #read{
+          background-color: yellow;
+          color:black;
+          font-size: 200%;
+          font-weight: bolder;
+          height:5vw;
+          padding: 6vh 35vw;
+          margin-top: 5vh;
+          border: 0.5vh solid black;
+          border-radius: 1vw ;
+        }
+        #foot{
+            background-color: blue;
+            color: white;
+            height: 2vw;
+            margin-top: 40vh;
+            padding-top: 1vh;
+            padding-left: 35vw;
+            font-size: 120%;
+            font-weight: bold;
+            border: 0.2vw solid white;
+            border-radius: 0.5vw;
+
+        }
+        #reload{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 5vh;
+            width: 10vw;
+            margin: 3vh 42vw;
+            background-color: white;
+
+            font-size: large;
+            font-weight: 500;
+        }
+        #reload:hover{
+            background-color: yellow;
+            border-radius: 5vh;
+            font-family: cursive;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="read">Reload Page , Read Jokes & Refresh Your Minds...</div>
+   <div id="joke">Wait Guy's Joke's Are Loading...</div>
+<button id="reload" onclick="reload()"> Reload </button>
+   <footer id="foot">This Page Copyright's &copy; Belongs To Coderssss...</footer>
+    <script src="./Random_Joke_Generator.js"></script>
+</body>
+</html>
